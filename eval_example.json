@@ -1,0 +1,6 @@
+[
+  {"question": "How does request routing work?", "expected": ["src/flask/app.py", "src/flask/blueprints.py"]},
+  {"question": "Where is the session cookie handled?", "expected": ["src/flask/sessions.py"]},
+  {"question": "How are templates rendered?", "expected": ["src/flask/templating.py"]},
+  {"question": "Where is the Flask class defined?", "expected": ["src/flask/app.py"]}
+]

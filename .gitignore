@@ -1,0 +1,5 @@
+.env
+.repomind/
+__pycache__/
+.venv/
+.pytest_cache/
