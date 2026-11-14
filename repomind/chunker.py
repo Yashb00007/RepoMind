@@ -1,13 +1,4 @@
-"""STEP 2 - split files into chunks that can be searched.
 
-Chunks follow the code's own structure where possible, so a function is not
-cut in half:
-  - Python: functions and classes (via ast); big classes are split per method
-  - JS/TS/Java/Go/Rust/...: top-level definitions found with regexes
-  - Markdown: headings
-  - anything else: fixed windows of lines with some overlap
-Small neighbouring pieces are packed together up to `size` lines.
-"""
 import ast
 import re
 from dataclasses import dataclass

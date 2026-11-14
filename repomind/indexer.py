@@ -1,8 +1,4 @@
-"""Ties steps 1-3 together: repo in -> searchable index out.
 
-Re-indexing is incremental: a manifest of file hashes is saved after each run, and
-the next run only re-embeds files that changed. Use full=True to rebuild everything.
-"""
 import hashlib
 import json
 from dataclasses import dataclass

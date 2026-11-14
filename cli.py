@@ -1,11 +1,3 @@
-"""Command-line interface.
-
-    python cli.py index https://github.com/pallets/flask
-    python cli.py index https://github.com/pallets/flask --full
-    python cli.py ask pallets-flask "How does request routing work?"
-    python cli.py chat pallets-flask
-    python cli.py list
-"""
 import argparse
 import sys
 

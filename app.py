@@ -1,4 +1,3 @@
-"""Web UI.  Run with:  streamlit run app.py"""
 import streamlit as st
 
 from repomind.indexer import index_repo

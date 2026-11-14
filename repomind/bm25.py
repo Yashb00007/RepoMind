@@ -1,8 +1,4 @@
-"""A small BM25 keyword index (no dependencies).
 
-Vector search is good at meaning but can miss exact names like `UserController`
-or `get_user_by_id`. Keyword search is the opposite, so we use both.
-"""
 import math
 import re
 from collections import Counter, defaultdict

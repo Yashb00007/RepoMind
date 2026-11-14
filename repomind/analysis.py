@@ -1,9 +1,3 @@
-"""Static analysis of a repo: dependencies, API routes and the import graph.
-
-Runs once at index time. The results are indexed as extra "overview" documents,
-so broad questions ("what endpoints exist?") have something concrete to find.
-Everything here is heuristic (regexes and ast), not a full parser.
-"""
 import ast
 import json
 import posixpath

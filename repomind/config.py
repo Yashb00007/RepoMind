@@ -1,4 +1,4 @@
-"""Settings in one place."""
+
 import os
 from pathlib import Path
 

@@ -1,8 +1,4 @@
-"""STEP 4 - turn the retrieved chunks into an answer with a local LLM (Ollama).
 
-The model never sees the whole repo, only the chunks the search found, so the
-prompt tells it to stick to those.
-"""
 import httpx
 import ollama
 

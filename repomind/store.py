@@ -1,10 +1,4 @@
-"""STEP 3 - embeddings, the vector database (ChromaDB) and hybrid search.
 
-Search combines two rankings:
-  - vector search: finds chunks that *mean* something similar to the question
-  - keyword search (BM25): finds chunks containing the exact names in the question
-and merges them with Reciprocal Rank Fusion.
-"""
 import re
 from functools import lru_cache
 

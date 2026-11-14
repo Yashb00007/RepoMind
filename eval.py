@@ -1,11 +1,3 @@
-"""Measure how well retrieval finds the right files.
-
-    python eval.py <repo> eval_example.json [--k 6]
-
-The questions file is a list of {"question": ..., "expected": [paths]}.
-A question is a hit if any expected path is in the top-k results.
-Run it before and after changing chunk sizes, TOP_K or models to see if it helped.
-"""
 import argparse
 import json
 import sys
